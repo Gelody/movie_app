@@ -26,6 +26,10 @@ class App extends React.Component {
     console.log('component rendered');
   }
 
+  componentDidUpdate() {
+    console.log('I just updated');
+  }
+
   render() {
     console.log("I'm rendering");
     return (
