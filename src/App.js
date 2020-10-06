@@ -30,6 +30,10 @@ class App extends React.Component {
     console.log('I just updated');
   }
 
+  componentWillMount() {
+    console.log('Goodbye, cruel world');
+  }
+
   render() {
     console.log("I'm rendering");
     return (
