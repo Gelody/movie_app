@@ -27,9 +27,9 @@ class App extends React.Component {
         {isLoading
           ? 'Loading...'
           : movies.map((movie) => {
-            console.log(movie);
             return (
               <Movie
+                key={movie.id}
                 id={movie.id}
                 year={movie.year}
                 title={movie.title}
